@@ -12,6 +12,7 @@ Watched Youtube vid
 Planned to build without VRAM
 Slowly bought components as could afford
 
+Approach - Keep notes throughout the project, treat everything as a learning exercise. Consistently push to github and manage version.
 
 ## BUILD COSTS / EQUIPMENT
 
@@ -29,3 +30,20 @@ The initial AI rig uses the Ryzen 9 7900X's integrated graphics. A dedicated GPU
 | Power Switch | LED Power Button Switch Extension Cable | New | eBay | £4.94 |
 | Dedicated GPU / VRAM | Not yet purchased | — | — | Excluded |
 | **Total (without dedicated GPU)** | | | | **£758.14** |
+
+18/10/2026
+Investigated last bits of componants and ordered
+Installed Ubuntu server LTS on flash drive ready for boot
+Exported personal nextcloud to machine for review
+Looked at RFC RFC 5545
+
+19/10/2026
+File and version management, created git repo, pulled, pushed back readme with build costs to check
+Environment tasks, gitignore, venv for python, hello world with test.py file
+DB:
+- Verify SQLite workd in env
+```
+python -c "import sys, sqlite3; print('Python:', sys.executable); print('SQLite:', sqlite3.sqlite_version)"
+```
+- Create db schema
+- create data folder
