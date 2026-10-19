@@ -3,8 +3,10 @@ Local AI Hosting and Calendar Assistant
 
 ## INTRODUCTION
 
-## CONTENTS
+## PACKAGES
+icalendar
 
+## CONTENTS
 
 Steps
 Initial research
@@ -45,5 +47,18 @@ DB:
 ```
 python -c "import sys, sqlite3; print('Python:', sys.executable); print('SQLite:', sqlite3.sqlite_version)"
 ```
-- Create db schema
-- create data folder
+
+
+### Initial Calendar Database Development
+
+The calendar assistant uses **SQLite** as its local database, with Python providing the interface for database operations and, eventually, AI function calling.
+
+| File | Purpose |
+|---|---|
+| `schema.sql` | Defines the database structure: tables, columns, relationships, constraints and indexes. |
+| `init_db.py` | Reads and executes `schema.sql` to initialise the database. |
+| `data/calendar.db` | The actual SQLite database containing calendar records. Excluded from Git. |
+| `calendar_crud.py` *(planned)* | Python functions for creating, reading, updating and deleting calendar records. |
+
+I can then Import my calenda from nextcloud to see what matches and what doesnt
+
