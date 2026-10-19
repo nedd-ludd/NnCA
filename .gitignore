@@ -1,0 +1,27 @@
+# Personal Nextcloud calendar exports
+*.nextcloud_export
+*.ics
+
+# Local SQLite databases and temporary files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Personal working data and backups
+data/
+backups/
