@@ -30,8 +30,8 @@ The initial AI rig uses the Ryzen 9 7900X's integrated graphics. A dedicated GPU
 | RAM | Kingston FURY Beast RGB 32GB (2 × 16GB), 6000MT/s | New | CCL Online | £178.94 |
 | Storage | Kingston NV2 250GB M.2 NVMe PCIe 4.0 SSD | New | eBay | £40.00 |
 | Power Switch | LED Power Button Switch Extension Cable | New | eBay | £4.94 |
-| Dedicated GPU / VRAM | Not yet purchased | — | — | Excluded |
-| **Total (without dedicated GPU)** | | | | **£758.14** |
+| Dedicated GPU / VRAM | Gigabyte GeForce RTX 3060 Windforce OC 12GB GDDR6 | Used | Cex | £330.00 |
+| **Total (without dedicated GPU)** | | | | **£1088.14** |
 
 18/10/2026
 Investigated last bits of componants and ordered
